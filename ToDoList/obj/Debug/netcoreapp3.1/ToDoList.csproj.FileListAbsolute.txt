@@ -301,3 +301,4 @@ C:\Users\Gebruiker\Desktop\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\Gebruiker\Desktop\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.dll
 C:\Users\Gebruiker\Desktop\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.pdb
 C:\Users\Gebruiker\Desktop\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.genruntimeconfig.cache
+C:\Users\Gebruiker\Desktop\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\ToDoList.csprojAssemblyReference.cache
