@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0xooMPnvD0yVAliJr0fS+wAAAAACAAAAAAAQZgAAAAEAACAAAAAftRJxiW8F079SbhtG6OWNq6wnw6oKovmqY6AZW/9fhwAAAAAOgAAAAAIAACAAAABNZGzW4ztjNHQWG96bsq1Oavyt6AgBoyh1Bk6SLGL1eIAAAAAWC1lIpieTGgZid5c6M9r2uWuTL7JN0D9FN7myLIX7PCsnCdR9jpciOVmlKYJZEMz+/fM7GIMY34jRj3QVz6mlZH+AvkE9anf8I6yoUKZLfD1IL1gn+y0OgjvQHLFwqLywNVpyCcDLGUGcL6fbohSApDw6jVdc0jvBHwYTSGqMKUAAAADcjlXnuuP+0Qrd1ehlCmER3sewgV476S48WFBWPaqiAfNLLvhPOikPacnn2/QSX1kaVBa7NDwdzOVvEcWvkZCv</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:tamdatabase.database.windows.net,1433;Initial Catalog=Tam;User Id=tamnguyen@tamdatabase.database.windows.net;Password=Alkmaar1!" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:tamdatabase.database.windows.net,1433;Initial Catalog=Tam;User Id=tamnguyen@tamdatabase;Password=Alkmaar1!" />
+  </ItemGroup>
+</Project>

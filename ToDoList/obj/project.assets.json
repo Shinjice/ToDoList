@@ -8410,11 +8410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+      "projectUniqueName": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList.csproj",
       "projectName": "ToDoList",
-      "projectPath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+      "projectPath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList.csproj",
       "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList\\obj\\",
+      "outputPath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wCSS5XjXMZUjfNtxk9WAGwiexKqu9dSlGvZw4dklNpKOToRjr87pjYt48e2+VYPAPcDJyp/qsJdTZCMCjaf4MA==",
+  "dgSpecHash": "MJ5w1i06Ouv7OLvau8PmJbYa2oWCkadl1/cqVnZpiN1PeH+lxQ1uHJvIkpQctqhIYqnAwnbLl4cWvbpWlTRA8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+  "projectFilePath": "C:\\Users\\Gebruiker\\Desktop\\ToDoList\\ToDoList\\ToDoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
