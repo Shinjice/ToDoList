@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace ToDoList.Models
 {
-    [IgnoreAntiforgeryToken(Order = 2000)]
-    public class TodoList
+    [IgnoreAntiforgeryToken(Order = 1001)]
+    public class TodoList 
     {
         public int Id { get; set; }
         [Required]
