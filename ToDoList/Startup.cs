@@ -17,7 +17,7 @@ namespace ToDoList
 {
     public class Startup
     {
-        private const bool V = false;
+        //private const bool V = false;
         
         public Startup(IConfiguration configuration)
         {
