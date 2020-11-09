@@ -29,7 +29,7 @@ namespace ToDoList.Controllers
 
         //POST /todo/create
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(TodoList item)
         {
             if (ModelState.IsValid) {
@@ -58,7 +58,7 @@ namespace ToDoList.Controllers
 
         // POST /todo/edit/5
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(TodoList item)
         {
             if (ModelState.IsValid)

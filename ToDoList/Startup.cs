@@ -5,16 +5,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using ToDoList.Infrastructure;
 
 namespace ToDoList
 {
     public class Startup
     {
+        private const bool V = false;
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -29,7 +33,10 @@ namespace ToDoList
 
             services.AddDbContext<ToDoContext>(options => options.UseSqlServer
             (Configuration.GetConnectionString("TodoContext")));
+
+            //MvcOptions.EnableEndpointRouting = V;
         }
+        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -57,6 +64,13 @@ namespace ToDoList
                     name: "default",
                     pattern: "{controller=ToDo}/{action=Index}/{id?}");
             });
+            app.Use(async (context, next) =>
+            {
+                context.Response.Headers.Add("X-Frame-Options", "ALLOW-FROM https://todolisttam.azurewebsites.com");
+                await next();
+            });
+
+            //app.UseMvc();
         }
     }
 }

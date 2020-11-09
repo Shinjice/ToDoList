@@ -11,8 +11,8 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>True</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>ToDoList.Infrastructure.ToDoContext</WebStackScaffolding_DbContextTypeFullName>
-    <NameOfLastUsedPublishProfile>ToDoListTam - Web Deploy</NameOfLastUsedPublishProfile>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>ToDoList20201106171146 - Web Deploy</NameOfLastUsedPublishProfile>
+    <ActiveDebugProfile>ToDoList</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
