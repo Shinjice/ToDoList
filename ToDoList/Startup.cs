@@ -67,7 +67,7 @@ namespace ToDoList
             
             app.Use(async (context, next) =>
             {
-                context.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
+                context.Response.Headers.Add("X-Frame-Options", "https://teams.microsoft.com/");
                 await next();
             });
 
