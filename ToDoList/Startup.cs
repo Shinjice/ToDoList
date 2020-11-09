@@ -33,7 +33,7 @@ namespace ToDoList
 
             services.AddDbContext<ToDoContext>(options => options.UseSqlServer
             (Configuration.GetConnectionString("TodoContext")));
-
+            
             //MvcOptions.EnableEndpointRouting = V;
         }
         
@@ -64,9 +64,10 @@ namespace ToDoList
                     name: "default",
                     pattern: "{controller=ToDo}/{action=Index}/{id?}");
             });
+            
             app.Use(async (context, next) =>
             {
-                context.Response.Headers.Add("X-Frame-Options", "ALLOW-FROM https://todolisttam.azurewebsites.com");
+                context.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
                 await next();
             });
 
