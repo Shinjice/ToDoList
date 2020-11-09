@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <script>
+        microsoftTeams.initialize();
+    </script>
     <header>
-        <img src="https://media-01.imu.nl/storage/cadcompany.nl/3890/cad-company.png">
+        <script src='https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
+
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <h1>To Do List</h1>
+                <img src="https://media-01.imu.nl/storage/cadcompany.nl/3890/cad-company.png"><h1>To Do List</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,7 +48,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - ToDoList Tam Nguyen 
+            &copy; 2020 - ToDoList Tam Nguyen
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
