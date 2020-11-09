@@ -67,7 +67,7 @@ namespace ToDoList
             
             app.Use(async (context, next) =>
             {
-                context.Response.Headers.Add("X-Frame-Options", "ALLOW");
+                context.Response.Headers.Add("X-Frame-Options", "ALLOW-FROM https://todolisttam.azurewebsites.com/");
                 await next();
             });
 
